@@ -1,0 +1,58 @@
+@import url("components/banner.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins";
+  color: #fff;
+  background-color: #1d1d1d;
+}
+
+.profile-image {
+  height: 270px;
+  width: 220px;
+  border-radius: 10%
+}
+
+.header {
+  font-size: 30pt;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px
+}
+
+.description {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 120px;
+  align-items: center
+}
+
+#about {
+  padding: 130px 0 170px;
+  background-color: #111111;
+}
+
+#projects {
+  background-color: #111111;
+  padding: 100px 0 130px;
+}
+
+#contact {
+  padding: 100px 0 130px;
+  background-color: #111111;
+}
+
+#tsparticles {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0
+}
