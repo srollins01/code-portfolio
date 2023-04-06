@@ -8,6 +8,7 @@
 
 .banner-button {
   margin: 20px;
+  color: #fff;
   border: 2px solid #fff;
   box-sizing: inherit;
   cursor: pointer;
@@ -21,7 +22,7 @@
 .banner-button:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #191919
+  color: #191919;
 }
 
 .banner-text {

@@ -1,9 +1,10 @@
 @import url("components/banner.css");
+@import url("components/card.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 body {
@@ -80,8 +81,4 @@ section .container {
 #contact {
   padding: 60px 0 130px;
   background-color: #111111;
-}
-
-.white-txt {
-  color: #fff;
 }
