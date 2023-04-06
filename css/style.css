@@ -14,9 +14,21 @@ body {
   background-color: #1d1d1d;
 }
 
+a {
+  color: rgb(226, 109, 255);
+  text-decoration: none;
+  -webkit-transition: all .4s;
+  transition: all .4s
+}
+
+a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
 .profile-image {
-  height: 270px;
-  width: 220px;
+  height: 220px;
+  width: 230px;
   border-radius: 10%
 }
 
@@ -30,23 +42,20 @@ body {
 .description {
   text-align: center;
   font-weight: 300;
-  margin-top: 120px;
+  margin-top: 100px;
   align-items: center
 }
 
-#about {
-  padding: 130px 0 170px;
-  background-color: #111111;
+.code-icon {
+  font-size: 72px;
 }
 
-#projects {
-  background-color: #111111;
-  padding: 100px 0 130px;
-}
-
-#contact {
-  padding: 100px 0 130px;
-  background-color: #111111;
+section .container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+  width: 100%
 }
 
 #tsparticles {
@@ -55,4 +64,19 @@ body {
   position: relative;
   top: 0;
   left: 0
+}
+
+#about {
+  padding: 100px 0 60px;
+  background-color: #111111;
+}
+
+#projects {
+  background-color: #111111;
+  padding: 60px 0 60px;
+}
+
+#contact {
+  padding: 60px 0 130px;
+  background-color: #111111;
 }
