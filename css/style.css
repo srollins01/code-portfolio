@@ -19,7 +19,7 @@ a {
   color: rgb(226, 109, 255);
   text-decoration: none;
   -webkit-transition: all .4s;
-  transition: all .4s
+  transition: all .4s;
 }
 
 a:hover {
@@ -37,14 +37,14 @@ a:hover {
   font-size: 30pt;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
 .description {
   text-align: center;
   font-weight: 300;
   margin-top: 100px;
-  align-items: center
+  align-items: center;
 }
 
 .code-icon {
@@ -57,7 +57,7 @@ section .container {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 10px;
-  width: 100%
+  width: 100%;
 }
 
 #tsparticles {
@@ -65,7 +65,7 @@ section .container {
   height: 100vh;
   position: relative;
   top: 0;
-  left: 0
+  left: 0;
 }
 
 #about {
@@ -81,4 +81,71 @@ section .container {
 #contact {
   padding: 60px 0 130px;
   background-color: #111111;
+}
+
+#contact a {
+  font-size: 80px;
+  margin: 24px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+  .banner-wrap {
+      top: 40%;
+      left: 20%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #about {
+      padding:50px 10px 40px;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+
+  .header {
+    font-size: 25pt;
+  }
+
+  section .container {
+    padding: 0;
+    max-width: 1000px;
+  }
+
+  .banner-wrap {
+    top: 35%;
+    left: 5%;
+  }
+
+  .banner-text {
+    font-size: 18pt;
+  }
+
+  .banner-button {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 13pt;
+  }
+
+  .code-icon {
+    font-size: 60px;
+    margin-top: 40px;
+  }
+
+  #contact a {
+    font-size: 55px;
+    margin: 20px;
+  }
+
+  .cards {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #contact {
+      padding: 0;
+  }
 }
