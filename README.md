@@ -1,5 +1,7 @@
 ### Code Portfolio 
 My personal portfolio page 💻 
   
-### Languages Used
+
+Languages Used:
+
 HTML, CSS, JavaScript 
