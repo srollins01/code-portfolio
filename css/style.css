@@ -78,16 +78,6 @@ section .container {
   padding: 60px 0 60px;
 }
 
-#contact {
-  padding: 60px 0 130px;
-  background-color: #111111;
-}
-
-#contact a {
-  font-size: 80px;
-  margin: 24px;
-}
-
 
 @media only screen and (min-width: 768px) and (max-width:1024px) {
   .banner-wrap {
@@ -116,7 +106,7 @@ section .container {
 
   .banner-wrap {
     top: 35%;
-    left: 5%;
+    left: 10%;
   }
 
   .banner-text {
@@ -134,18 +124,7 @@ section .container {
     margin-top: 40px;
   }
 
-  #contact a {
-    font-size: 55px;
-    margin: 20px;
-  }
-
   .cards {
     padding: 10px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  #contact {
-      padding: 0;
   }
 }

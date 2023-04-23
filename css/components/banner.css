@@ -1,13 +1,18 @@
+#banner-links a {
+  font-size: 40px;
+  margin: 10px;
+  text-decoration: none;
+}
+
 .banner-wrap {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   text-align: center;
   font-weight: 300
 }
 
 .banner-button {
-  margin: 20px;
   color: #fff;
   border: 2px solid #fff;
   box-sizing: inherit;
