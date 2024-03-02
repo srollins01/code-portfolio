@@ -40,6 +40,14 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.header-martp {
+  font-size: 30pt;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
 .description {
   text-align: center;
   font-weight: 300;
@@ -50,6 +58,10 @@ a:hover {
 .code-icon {
   font-size: 80px;
   margin-top: 60px;
+}
+
+.code-icon:hover {
+  text-shadow: #FC0 1px 0 10px;
 }
 
 section .container {
@@ -96,6 +108,10 @@ section .container {
   }
 
   .header {
+    font-size: 25pt;
+  }
+
+  .header-martp {
     font-size: 25pt;
   }
 
