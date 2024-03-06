@@ -64,6 +64,11 @@ a:hover {
   text-shadow: #FC0 1px 0 10px;
 }
 
+.code-icon-sml {
+  color: rgb(236, 162, 255);
+  font-size: 20px;
+}
+
 section .container {
   box-sizing: border-box;
   margin: 0 auto;
