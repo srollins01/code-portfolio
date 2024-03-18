@@ -12,7 +12,8 @@ body {
   margin: 0;
   font-family: "Poppins";
   color: #fff;
-  background-color: #1d1d1d;
+  background-color: #111111;
+  overflow-x: hidden;
 }
 
 a {

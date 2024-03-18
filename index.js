@@ -1,5 +1,6 @@
 (async () => {
   await tsParticles.load("tsparticles", {
+    fullScreen: { enable: false },
     particles: {
       color: {
         value: "#c188cf",
