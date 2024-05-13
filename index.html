@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -47,7 +48,7 @@
         <div class="container">
 
           <div class="description row">
-            <div class="col-sm-12 col-lg-4 ">
+            <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="10" class="col-sm-12 col-lg-4">
               <img src="images/sarah.png" alt="Sarah Rollins" class="profile-image mb-4">
             </div>
 
@@ -113,7 +114,7 @@
       <div class="container">
         <div class="cards">
 
-          <div class="project-card">
+          <div data-aos="fade-up" class="project-card">
             <img src="images/yasashii.png" width="320" height="150" alt="yasashii">
             <h4 class="my-2">Yasashii</h4>
             <p>
@@ -130,7 +131,7 @@
             <a target="_blank" href="https://github.com/srollins01/yasashii" class="card-btn">View Code</a>
           </div>
 
-          <div class="project-card">
+          <div data-aos="fade-up" class="project-card">
             <img src="images/chara.png" width="320" height="150" alt="Characatch">
             <h4 class="my-2">Characatch</h4>
             <p>
@@ -147,7 +148,7 @@
             <a target="_blank" href="https://github.com/srollins01/characatch" class="card-btn">View Code</a>
           </div>
 
-          <div class="project-card">
+          <div data-aos="fade-up" class="project-card">
             <img src="images/movies.png" width="320" height="150" alt="Movie Watch List">
             <h4 class="my-2">Movie Watch List</h4>
             <p>
@@ -164,7 +165,7 @@
             <a target="_blank" href="https://github.com/srollins01/rails-watch-list" class="card-btn">View Code</a>
           </div>
 
-          <div class="project-card">
+          <div data-aos="fade-up" class="project-card">
             <img src="images/japantrav.png" width="320" height="150" alt="Japan Travel">
             <h4 class="my-2">Japan Article</h4>
             <p>
@@ -179,7 +180,7 @@
             <a target="_blank" href="https://github.com/srollins01/Japan-article" class="card-btn">View Code</a>
           </div>
 
-          <div class="project-card">
+          <div data-aos="fade-up" class="project-card">
             <img src="images/profile.png" width="320" height="150" alt="Sarah Rollins Profile">
             <h4 class="my-2">Profile Page</h4>
             <p>
@@ -193,7 +194,7 @@
             <a target="_blank" href="https://github.com/srollins01/profile" class="card-btn">View Code</a>
           </div>
 
-          <div class="project-card">
+          <div data-aos="fade-up" class="project-card">
             <img src="images/portfolio.png" width="320" height="150" alt="Sarah Rollins Portfolio">
             <h4 class="my-2">Portfolio Page</h4>
             <p>
@@ -214,5 +215,9 @@
     <script src="tsparticles.engine.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-firefly@2/tsparticles.preset.firefly.bundle.min.js"></script>
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
