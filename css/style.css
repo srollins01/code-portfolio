@@ -92,7 +92,6 @@ section .container {
 }
 
 .profile-image {
-  height: 100%;
   width: 120%;
 }
 
@@ -139,8 +138,8 @@ section .container {
   }
 
   .profile-image {
-    height: 440px;
-    width: 580px;
+    height: 450px;
+    width: 550px;
   }
 }
 
@@ -163,8 +162,8 @@ section .container {
   }
 
   .profile-image {
-    height: 220px;
-    width: 290px;
+    height: 200px;
+    width: 250px;
   }
 
   .description {
