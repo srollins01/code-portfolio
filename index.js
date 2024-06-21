@@ -28,6 +28,8 @@ viewProj.addEventListener("click", seeProjects);
 
 let mybutton = document.getElementById("myBtn");
 
+let topnav = document.getElementById("topnav");
+
 window.onscroll = function() {scrollFunction()};
 
 const isActive = () => mybutton.classList.contains("active");
@@ -35,9 +37,11 @@ const isActive = () => mybutton.classList.contains("active");
 function scrollFunction() {
   if (document.body.scrollTop > (window.innerHeight - 80) || document.documentElement.scrollTop > (window.innerHeight - 80)) {
     mybutton.classList.add("active");
+    topnav.classList.add("active");
   } else {
     if (isActive()) {
       mybutton.classList.remove("active");
+      topnav.classList.remove("active");
     }
   }
 }
