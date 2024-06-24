@@ -188,10 +188,38 @@ section .container {
   left: 0;
 }
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1280px) {
   .profile-image {
     transform: translate(-10%);
     width: 130%;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .profile-image {
+    transform: translate(-20%);
+    width: 140%;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .profile-image {
+    transform: translate(-30%);
+    width: 150%;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .profile-image {
+    transform: translate(-40%);
+    width: 160%;
+  }
+}
+
+@media only screen and (min-width: 1880px) {
+  .profile-image {
+    transform: translate(-50%);
+    width: 180%;
   }
 }
 
