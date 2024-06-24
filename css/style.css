@@ -2,9 +2,17 @@
 @import url("components/card.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=block');
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+/* Elements */
+a {
+  color: rgb(226, 109, 255);
+  text-decoration: none;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+a:hover {
+  color: #fff;
+  transform: scale(1.1);
 }
 
 body {
@@ -16,16 +24,38 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  color: rgb(226, 109, 255);
-  text-decoration: none;
-  -webkit-transition: all .4s;
-  transition: all .4s;
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-a:hover {
-  color: #fff;
-  transform: scale(1.1);
+section .container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+/* Classes */
+.code-icon {
+  font-size: 80px;
+  margin-top: 60px;
+}
+
+.code-icon:hover {
+  text-shadow: #FC0 1px 0 10px;
+}
+
+.code-icon-sml {
+  color: rgb(236, 162, 255);
+  font-size: 20px;
+}
+
+.description {
+  text-align: center;
+  font-weight: 300;
+  align-items: center;
 }
 
 .header {
@@ -41,86 +71,6 @@ a:hover {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 60px;
-}
-
-.description {
-  text-align: center;
-  font-weight: 300;
-  align-items: center;
-}
-
-.code-icon {
-  font-size: 80px;
-  margin-top: 60px;
-}
-
-.code-icon:hover {
-  text-shadow: #FC0 1px 0 10px;
-}
-
-.code-icon-sml {
-  color: rgb(236, 162, 255);
-  font-size: 20px;
-}
-
-section .container {
-  box-sizing: border-box;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 10px;
-  width: 100%;
-}
-
-#tsparticles {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-#about {
-  padding: 0 0 60px;
-  background-color: #111111;
-}
-
-#about-me {
-  padding: 100px 0 0;
-  background-image: url("../images/purplegr_line.png");
-  background-repeat: no-repeat;
-  background-size: 40% 100%;
-}
-
-.profile-image {
-  width: 120%;
-}
-
-#projects {
-  background-color: #111111;
-  padding: 60px 0 60px;
-}
-
-.tooltipicon {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltipicon + .tooltiptext {
-  visibility: hidden;
-  width: 100px;
-  background-color: rgba(0, 0, 0, 0.672);
-  color: #fff;
-  font-size: 12px;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  transform:translate(-50%, -100%);
-}
-
-.tooltipicon:hover + .tooltiptext {
-  visibility: visible;
 }
 
 .myBtn {
@@ -154,6 +104,33 @@ section .container {
   color: rgb(246, 246, 246);
 }
 
+.profile-image {
+  width: 120%;
+}
+
+.tooltipicon {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipicon + .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.672);
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  transform:translate(-50%, -100%);
+}
+
+.tooltipicon:hover + .tooltiptext {
+  visibility: visible;
+}
+
 .topnav {
   opacity: 0;
   position: fixed;
@@ -185,6 +162,32 @@ section .container {
   color: black;
 }
 
+/* IDs */
+#about {
+  padding: 0 0 60px;
+  background-color: #111111;
+}
+
+#about-me {
+  padding: 100px 0 0;
+  background-image: url("../images/purplegr_line.png");
+  background-repeat: no-repeat;
+  background-size: 40% 100%;
+}
+
+#projects {
+  background-color: #111111;
+  padding: 60px 0 60px;
+}
+
+#tsparticles {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
 @media only screen and (min-width: 1350px) {
   .profile-image {
     transform: translate(-10%);
@@ -193,39 +196,27 @@ section .container {
 }
 
 @media only screen and (min-width: 768px) and (max-width:992px) {
+  .profile-image {
+    height: 450px;
+    width: 550px;
+  }
+
   #about-me {
     padding: 50px 0 0;
     background-size: 600px 540px;
     background-position: 50% 0%;
   }
-
-  .profile-image {
-    height: 450px;
-    width: 550px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width:1024px) {
-  .banner-wrap {
-      top: 40%;
-      left: 20%;
-  }
 }
 
 @media only screen and (max-width: 768px) {
-  #about {
-      padding: 0px 10px 40px;
+  section .container {
+    padding: 0;
+    max-width: 1000px;
   }
 
-  #about-me {
-    padding: 50px 0 0;
-    background-size: 300px 280px;
-    background-position: 50% 0%;
-  }
-
-  .profile-image {
-    height: 200px;
-    width: 250px;
+  .code-icon {
+    font-size: 60px;
+    margin-top: 40px;
   }
 
   .description {
@@ -240,35 +231,6 @@ section .container {
     font-size: 25pt;
   }
 
-  section .container {
-    padding: 0;
-    max-width: 1000px;
-  }
-
-  .banner-wrap {
-    top: 35%;
-    left: 10%;
-  }
-
-  .banner-text {
-    font-size: 18pt;
-  }
-
-  .banner-button {
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 13pt;
-  }
-
-  .code-icon {
-    font-size: 60px;
-    margin-top: 40px;
-  }
-
-  .cards {
-    padding: 10px;
-  }
-
   .myBtn {
     bottom: 20px;
     right: 20px;
@@ -279,8 +241,23 @@ section .container {
     color: rgb(191, 191, 191);
   }
 
+  .profile-image {
+    height: 200px;
+    width: 250px;
+  }
+
   .topnav a:hover {
     background-color: #000000cf;
     color: #f2f2f2;
+  }
+
+  #about {
+    padding: 0px 10px 40px;
+  }
+
+  #about-me {
+    padding: 50px 0 0;
+    background-size: 300px 280px;
+    background-position: 50% 0%;
   }
 }

@@ -1,17 +1,3 @@
-#banner-links a {
-  font-size: 40px;
-  margin: 10px;
-  text-decoration: none;
-}
-
-.banner-wrap {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  text-align: center;
-  font-weight: 300
-}
-
 .banner-button {
   color: #fff;
   border: 2px solid #fff;
@@ -34,4 +20,42 @@
   font-size: 32pt;
   line-height: 36pt;
   margin: 0 0 20px
+}
+
+.banner-wrap {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  font-weight: 300
+}
+
+#banner-links a {
+  font-size: 40px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+  .banner-wrap {
+      top: 40%;
+      left: 20%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-button {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 13pt;
+  }
+
+  .banner-text {
+    font-size: 18pt;
+  }
+
+  .banner-wrap {
+    top: 35%;
+    left: 10%;
+  }
 }
