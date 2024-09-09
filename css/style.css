@@ -44,7 +44,7 @@ section .container {
 }
 
 .code-icon:hover {
-  text-shadow: #FC0 1px 0 10px;
+  text-shadow: rgba(255, 224, 98, 0.667) 1px 0 10px;
 }
 
 .code-icon-sml {
@@ -106,6 +106,22 @@ section .container {
 
 .profile-image {
   width: 120%;
+}
+
+.purple-dark {
+  color: rgb(232, 141, 255);
+}
+
+.purple-light {
+  color: rgb(242, 190, 255);
+}
+
+.purple-v-dark {
+  color: rgb(224, 100, 255);
+}
+
+.purple-v-light {
+  color: rgb(250, 229, 255);
 }
 
 .tooltipicon {
@@ -173,6 +189,28 @@ section .container {
   background-image: url("../images/purplegr_line.png");
   background-repeat: no-repeat;
   background-size: 40% 100%;
+}
+
+#more-skills {
+  display: none;
+}
+
+#show-btn {
+  margin: 5px;
+  color: rgb(243, 195, 255);
+  border: 2px solid rgb(243, 195, 255);;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 15px;
+  -webkit-transition: all .5s;
+  transition: all .5s
+}
+
+#show-btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #191919;
+  text-decoration: none;
 }
 
 #projects {

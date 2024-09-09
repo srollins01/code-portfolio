@@ -50,3 +50,20 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+mybutton.addEventListener("click", topFunction);
+
+function showMore(event) {
+  const toggle = document.getElementById("more-skills");
+  const btn = document.getElementById("show-btn")
+  if (toggle.style.display === "none" || toggle.style.display === "") {
+    toggle.style.display = "block";
+    btn.innerText = "Show less"
+  } else {
+    toggle.style.display = "none";
+    btn.innerText = "Show more";
+  }
+  event.preventDefault();
+}
+
+document.getElementById("show-btn").addEventListener("click", showMore);
