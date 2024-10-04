@@ -104,6 +104,10 @@ section .container {
   color: rgb(246, 246, 246);
 }
 
+.nice-wrap {
+  text-wrap: pretty;
+}
+
 .profile-image {
   width: 120%;
 }
@@ -163,7 +167,7 @@ section .container {
   opacity: 1;
 }
 
-.topnav a {
+.mainlink {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -173,9 +177,13 @@ section .container {
   box-shadow: #111111;
 }
 
-.topnav a:hover {
+.mainlink:hover {
   background-color: #ddd;
   color: black;
+}
+
+.lang {
+  color: #f2f2f2;
 }
 
 /* IDs */

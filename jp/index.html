@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -15,12 +15,12 @@
     <meta property="og:description" content="Sarah Rollins - Tokyo-based Full Stack Web Developer specializing in Ruby on Rails and React.">
     <meta property="og:site_name" content="Sarah Rollins Portfolio">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
   </head>
 
   <!-- Google tag (gtag.js) -->
@@ -50,18 +50,17 @@
         </a>
       </div>
       <div class="mx-3 d-flex align-items-center">
-        <p class="lang m-0" style="color: #6d6d6d">EN</p>
+        <a href="/" class="lang">EN</a>
         <p class="lang m-0">&nbsp;&nbsp;/&nbsp;&nbsp;</p>
-        <a href="/jp" class="lang">JP</a>
+        <p class="lang m-0" style="color: #6d6d6d">JP</p>
       </div>
     </div>
 
     <div>
       <div id="tsparticles"></div>
-      <div class="banner-wrap">
-        <div class="banner-text">Hello, I'm
-          <span style="color: rgb(226, 109, 255); font-weight: 600;"> Sarah Rollins</span>.
-          <br>I'm a full-stack developer.
+      <div class="banner-wrap" style="margin-right: 40px;">
+        <div class="banner-text">
+          <span style="color: rgb(226, 109, 255); font-weight: 600;">サラ ロリンズ</span>のポートフォリオサイトへようこそ
         </div>
 
         <div id="banner-links">
@@ -78,7 +77,7 @@
 
         <br>
         <a id="view-proj">
-          <div class="banner-button">View my projects</div>
+          <div class="banner-button">プロジェクトを見る</div>
         </a>
       </div>
     </div>
@@ -93,26 +92,27 @@
 
           <div class="description row">
             <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="10" class="col-sm-12 col-lg-4">
-              <img src="images/sarah.png" alt="Sarah Rollins" class="profile-image mb-4">
+              <img src="../images/sarah.png" alt="Sarah Rollins" class="profile-image mb-4">
             </div>
 
             <div class="col-sm-12 col-lg-8 pb-5 nice-wrap">
-              <div class="header">About Me</div>
+              <div class="header">自己紹介</div>
               <p>
-                I am a driven, detail-oriented professional specializing in web development, design, and digital illustration. Originally from Canada, I moved to Sendai, Japan in 2018 to teach English.
-                My teaching experience allowed me to develop strong communication
-                skills in both English and Japanese. In 2022, I relocated to Tokyo to pursue career opportunities
-                in the education and tech industries.
+                私はウェブ開発、デザイン、デジタルイラストを専門とする
+                意欲的で細部にまでこだわるフルスタックエンジニアです。カナダ出身で、
+                2018年に仙台に移住し、英語を教えていました。その教師としての経験により、
+                英語と日本語の両方で優れたコミュニケーションスキルを身につけることができました。
+                2022年には、教育およびIT業界でのキャリアを追求するために東京に来ました。
               </p>
               <p>
-                I am a Le Wagon Tokyo Web Development graduate, and I am currently working as an IT Solutions Engineer.
+                Le Wagon Tokyoのプログラミングスクールを卒業し、現在ITソリューションエンジニアとして働いています。
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="header-martp">Skills</div>
+      <div class="header-martp">スキルセット</div>
 
         <div class="row purple-v-light justify-content-center text-center mx-lg-5 px-lg-5 mx-md-2 px-md-2 py-2">
           <div class="col-6 col-md-3">
@@ -194,21 +194,21 @@
       </div>
 
       <div class="row justify-content-center mt-3">
-        <a id="show-btn">Show more</a>
+        <a id="show-btn">もっと見る</a>
       </div>
 
     </section>
 
     <section id="projects">
-      <div class="header">Projects</div>
+      <div class="header">プロジェクト</div>
       <div class="container">
         <div class="cards">
 
           <div data-aos="fade-up" class="project-card">
-            <img src="images/yasashii.png" width="320" height="150" alt="yasashii">
+            <img src="../images/yasashii.png" width="320" height="150" alt="yasashii">
             <h4 class="my-2">Yasashii</h4>
             <p>
-              Automated web translation service for booking clinic appointments in Japan.
+              外国人が日本にて診療予約を行う為の自動ウェブ翻訳サービス
             </p>
             <div class="my-2 code-icon-sml">
               <i class="devicon-rails-plain tooltipicon"></i><span class="tooltiptext">Ruby on Rails</span>
@@ -219,15 +219,15 @@
               <i class="devicon-heroku-original tooltipicon"></i><span class="tooltiptext">Heroku</span>
 
             </div>
-            <a target="_blank" href="https://yasashii-care-d8c3a285aefa.herokuapp.com/" class="card-btn">Live Version</a>
-            <a target="_blank" href="https://github.com/srollins01/yasashii" class="card-btn">View Code</a>
+            <a target="_blank" href="https://yasashii-care-d8c3a285aefa.herokuapp.com/" class="card-btn">サイトを表示</a>
+            <a target="_blank" href="https://github.com/srollins01/yasashii" class="card-btn">ソースコード</a>
           </div>
 
           <div data-aos="fade-up" class="project-card">
-            <img src="images/chara.png" width="320" height="150" alt="Characatch">
+            <img src="../images/chara.png" width="320" height="150" alt="Characatch">
             <h4 class="my-2">Characatch</h4>
             <p>
-              Website for booking <i>yuru-kyara</i> (Japanese regional mascots) services for events.
+              ゆるキャラをイベントへ呼ぶ際の予約・申し込み・検索サイト
             </p>
             <div class="my-2 code-icon-sml">
               <i class="devicon-rails-plain tooltipicon"></i><span class="tooltiptext">Ruby on Rails</span>
@@ -237,15 +237,15 @@
               <i class="devicon-postgresql-plain tooltipicon"></i><span class="tooltiptext">PostgreSQL</span>
               <i class="devicon-heroku-original tooltipicon"></i><span class="tooltiptext">Heroku</span>
             </div>
-            <a target="_blank" href="https://characatch-app-08438e6cbd51.herokuapp.com/" class="card-btn">Live Version</a>
-            <a target="_blank" href="https://github.com/srollins01/characatch" class="card-btn">View Code</a>
+            <a target="_blank" href="https://characatch-app-08438e6cbd51.herokuapp.com/" class="card-btn">サイトを表示</a>
+            <a target="_blank" href="https://github.com/srollins01/characatch" class="card-btn">ソースコード</a>
           </div>
 
           <div data-aos="fade-up" class="project-card">
-            <img src="images/movies.png" width="320" height="150" alt="Movie Watch List">
+            <img src="../images/movies.png" width="320" height="150" alt="Movie Watch List">
             <h4 class="my-2">Movie Watch List</h4>
             <p>
-              Web app for creating lists of your favorite movies, and rating others' lists.
+              お気に入り映画のリスト作成及び他の人のリストが評価できるウェブアプリ
             </p>
             <div class="my-2 code-icon-sml">
               <i class="devicon-rails-plain tooltipicon"></i><span class="tooltiptext">Ruby on Rails</span>
@@ -255,15 +255,15 @@
               <i class="devicon-postgresql-plain tooltipicon"></i><span class="tooltiptext">PostgreSQL</span>
               <i class="devicon-heroku-original tooltipicon"></i><span class="tooltiptext">Heroku</span>
             </div>
-            <a target="_blank" href="https://sr-movie-list.herokuapp.com/" class="card-btn">Live Version</a>
-            <a target="_blank" href="https://github.com/srollins01/rails-watch-list" class="card-btn">View Code</a>
+            <a target="_blank" href="https://sr-movie-list.herokuapp.com/" class="card-btn">サイトを表示</a>
+            <a target="_blank" href="https://github.com/srollins01/rails-watch-list" class="card-btn">ソースコード</a>
           </div>
 
           <div data-aos="fade-up" class="project-card">
-            <img src="images/httpdog.png" width="320" height="150" alt="HTTPDog">
+            <img src="../images/httpdog.png" width="320" height="150" alt="HTTPDog">
             <h4 class="my-2">HTTPDog</h4>
             <p>
-              HTTP Status Dogs API-based image search.
+              HTTP Status DogsのAPIを利用した画像検索
             </p>
             <div class="my-2 code-icon-sml">
               <i class="devicon-react-plain tooltipicon"></i><span class="tooltiptext">React</span>
@@ -272,38 +272,38 @@
               <i class="devicon-javascript-plain tooltipicon"></i><span class="tooltiptext">JavaScript</span>
               <i class="devicon-typescript-plain tooltipicon"></i><span class="tooltiptext">TypeScript</span>
             </div>
-            <a target="_blank" href="https://srollins01.github.io/http-dog/" class="card-btn">Live Version</a>
-            <a target="_blank" href="https://github.com/srollins01/http-dog/tree/master" class="card-btn">View Code</a>
+            <a target="_blank" href="https://srollins01.github.io/http-dog/" class="card-btn">サイトを表示</a>
+            <a target="_blank" href="https://github.com/srollins01/http-dog/tree/master" class="card-btn">ソースコード</a>
           </div>
 
           <div data-aos="fade-up" class="project-card">
-            <img src="images/japantrav.png" width="320" height="150" alt="Japan Travel">
+            <img src="../images/japantrav.png" width="320" height="150" alt="Japan Travel">
             <h4 class="my-2">Japan Article</h4>
             <p>
-              Medium-inspired article about travel in Japan.
+              日本旅行についてのMedium風の記事
             </p>
             <div class="my-2 code-icon-sml">
               <i class="devicon-html5-plain tooltipicon"></i><span class="tooltiptext">HTML</span>
               <i class="devicon-css3-plain tooltipicon"></i><span class="tooltiptext">CSS</span>
               <i class="devicon-javascript-plain tooltipicon"></i><span class="tooltiptext">JavaScript</span>
             </div>
-            <a target="_blank" href="https://srollins01.github.io/Japan-article/" class="card-btn">Live Version</a>
-            <a target="_blank" href="https://github.com/srollins01/Japan-article" class="card-btn">View Code</a>
+            <a target="_blank" href="https://srollins01.github.io/Japan-article/" class="card-btn">サイトを表示</a>
+            <a target="_blank" href="https://github.com/srollins01/Japan-article" class="card-btn">ソースコード</a>
           </div>
 
           <div data-aos="fade-up" class="project-card">
-            <img src="images/portfolio.png" width="320" height="150" alt="Sarah Rollins Portfolio">
+            <img src="../images/portfolio.png" width="320" height="150" alt="Sarah Rollins Portfolio">
             <h4 class="my-2">Portfolio Page</h4>
             <p>
-              My personal web development portfolio.
+              Web開発のポートフォリオサイト
             </p>
             <div class="my-2 code-icon-sml">
               <i class="devicon-html5-plain tooltipicon"></i><span class="tooltiptext">HTML</span>
               <i class="devicon-css3-plain tooltipicon"></i><span class="tooltiptext">CSS</span>
               <i class="devicon-javascript-plain tooltipicon"></i><span class="tooltiptext">JavaScript</span>
             </div>
-            <a target="_blank" href="https://srollins01.github.io/code-portfolio/" class="card-btn">Live Version</a>
-            <a target="_blank" href="https://github.com/srollins01/code-portfolio" class="card-btn">View Code</a>
+            <a target="_blank" href="https://srollins01.github.io/code-portfolio/" class="card-btn">サイトを表示</a>
+            <a target="_blank" href="https://github.com/srollins01/code-portfolio" class="card-btn">ソースコード</a>
           </div>
         </div>
       </div>
@@ -311,7 +311,7 @@
 
     <script src="tsparticles.engine.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-firefly@2/tsparticles.preset.firefly.bundle.min.js"></script>
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
